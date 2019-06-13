@@ -2911,7 +2911,7 @@ CAP-08070</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="3.3VGP10" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="MOSI"/>
 <wire x1="25.4" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
@@ -2922,7 +2922,7 @@ CAP-08070</description>
 <junction x="68.58" y="66.04"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="3.3VGP12" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GP12"/>
 <wire x1="-5.08" y1="60.96" x2="-10.16" y2="60.96" width="0.1524" layer="91"/>
@@ -2935,7 +2935,7 @@ CAP-08070</description>
 <junction x="68.58" y="63.5"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="3.3VGP18" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GP21"/>
 <wire x1="-5.08" y1="48.26" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
@@ -2948,7 +2948,7 @@ CAP-08070</description>
 <junction x="68.58" y="58.42"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="3.3VGP21" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GP18#"/>
 <wire x1="25.4" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
@@ -2959,7 +2959,7 @@ CAP-08070</description>
 <junction x="68.58" y="60.96"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="3.3V" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3.3V@1"/>
 <wire x1="-5.08" y1="73.66" x2="-7.62" y2="73.66" width="0.1524" layer="91"/>
@@ -2972,7 +2972,7 @@ CAP-08070</description>
 <junction x="68.58" y="55.88"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="5V" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="5V@2"/>
 <wire x1="-5.08" y1="78.74" x2="-5.08" y2="88.9" width="0.1524" layer="91"/>
@@ -2982,82 +2982,6 @@ CAP-08070</description>
 <junction x="-5.08" y="78.74"/>
 <junction x="45.72" y="78.74"/>
 </segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="6"/>
-<junction x="109.22" y="66.04"/>
-<wire x1="109.22" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="66.04" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
-<junction x="137.16" y="76.2"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="5"/>
-<junction x="109.22" y="63.5"/>
-<wire x1="109.22" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="63.5" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-<junction x="137.16" y="66.04"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<junction x="109.22" y="58.42"/>
-<wire x1="109.22" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="58.42" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
-<junction x="137.16" y="45.72"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<junction x="109.22" y="60.96"/>
-<wire x1="109.22" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="60.96" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
-<junction x="137.16" y="55.88"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="GPIO1821" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="45.72" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
-<junction x="147.32" y="45.72"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<wire x1="58.42" y1="91.44" x2="-12.7" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="91.44" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="GND@6"/>
-<wire x1="-12.7" y1="40.64" x2="-5.08" y2="40.64" width="0.1524" layer="91"/>
-<junction x="-5.08" y="40.64"/>
-<wire x1="58.42" y1="91.44" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="DC5VIN" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="104.14" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="DC5VOUT" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="101.6" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="-"/>
-<junction x="76.2" y="101.6"/>
-<wire x1="58.42" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="116.84" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
 <segment>
 <pinref part="DC5VIN" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="104.14" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
@@ -3070,7 +2994,7 @@ CAP-08070</description>
 <pinref part="J3" gate="G$1" pin="2"/>
 <junction x="109.22" y="55.88"/>
 <pinref part="INT_5V_JMPR" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="78.74" x2="76.2" y2="78.74" width="0.0762" layer="91"/>
 <wire x1="76.2" y1="78.74" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="78.74" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
@@ -3078,20 +3002,88 @@ CAP-08070</description>
 <junction x="76.2" y="78.74"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="5VGP10" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="GND@9"/>
-<wire x1="-5.08" y1="38.1" x2="-12.7" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="38.1" x2="-12.7" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="12.7" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
-<junction x="68.58" y="53.34"/>
+<pinref part="J3" gate="G$1" pin="6"/>
+<junction x="109.22" y="66.04"/>
+<wire x1="109.22" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="66.04" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
+<junction x="137.16" y="76.2"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="5VGP12" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="5"/>
+<junction x="109.22" y="63.5"/>
+<wire x1="109.22" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="63.5" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
+<junction x="137.16" y="66.04"/>
+</segment>
+</net>
+<net name="5VGP21" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="3"/>
+<junction x="109.22" y="58.42"/>
+<wire x1="109.22" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="58.42" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
+<junction x="137.16" y="45.72"/>
+</segment>
+</net>
+<net name="5VGP18" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="4"/>
+<junction x="109.22" y="60.96"/>
+<wire x1="109.22" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="60.96" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
+<junction x="137.16" y="55.88"/>
+</segment>
+</net>
+<net name="GP21" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="GPIO1821" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="45.72" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
+<junction x="147.32" y="45.72"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<wire x1="58.42" y1="91.44" x2="-12.7" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="91.44" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND@6"/>
+<wire x1="-12.7" y1="40.64" x2="-5.08" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-5.08" y="40.64"/>
+<wire x1="58.42" y1="91.44" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="DC5VIN" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="104.14" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="DC5VOUT" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="101.6" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<junction x="76.2" y="101.6"/>
+<wire x1="58.42" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="116.84" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="101.6" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
+<junction x="86.36" y="101.6"/>
+<junction x="86.36" y="53.34"/>
+</segment>
+</net>
+<net name="GP10" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="GPIO1012" gate="G$1" pin="1"/>
@@ -3099,7 +3091,7 @@ CAP-08070</description>
 <wire x1="157.48" y1="76.2" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="GP12" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="GPIO1012" gate="G$1" pin="2"/>
@@ -3107,7 +3099,7 @@ CAP-08070</description>
 <wire x1="157.48" y1="66.04" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="GP18" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="GPIO1821" gate="G$1" pin="1"/>
